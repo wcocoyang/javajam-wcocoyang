@@ -1,0 +1,39 @@
+
+h1 {
+  background-color: #D2B48C;
+  color: #000000;
+}
+footer {
+  background-color: #D2B48C;
+  color: #2E0000;
+  font-style: italic;
+}
+
+<style>
+
+h1{
+  background-image: url("images/javalogo.jpg");
+  height: 100px;
+  width: 700px;
+  font-size: 300%;
+  padding-left: 150px;
+ padding-top: 30px;
+ border:2px solid;
+ border-radius:15px;
+ text-shadow: 3px 3px 3px #666666
+
+}
+
+body {
+
+   font-family: Arial, Verdana, sans-serif;
+background-image: url("images/javabackground.jpg")
+}
+
+footer {
+  background-color:#D2B48C;
+  font-size:.60em;
+  font-family: italic;
+  text-align: center }
+
+</style>
