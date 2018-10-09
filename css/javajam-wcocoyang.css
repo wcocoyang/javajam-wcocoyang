@@ -3,37 +3,48 @@ h1 {
   background-color: #D2B48C;
   color: #000000;
 }
+
 footer {
   background-color: #D2B48C;
   color: #2E0000;
   font-style: italic;
+  text-align: center;
+  font-size: 60%
 }
 
-<style>
 
 h1{
-  background-image: url("images/javalogo.jpg");
-  height: 100px;
-  width: 700px;
-  font-size: 300%;
-  padding-left: 150px;
- padding-top: 30px;
- border:2px solid;
- border-radius:15px;
- text-shadow: 3px 3px 3px #666666
+  background-image: url("../images/javalogo.jpg");
+text-align: center
 
 }
 
 body {
 
+
    font-family: Arial, Verdana, sans-serif;
-background-image: url("images/javabackground.jpg")
+background-image: url("../images/javabackground.gif")
+
 }
 
-footer {
-  background-color:#D2B48C;
-  font-size:.60em;
-  font-family: italic;
-  text-align: center }
+#container {
 
-</style>
+  margin-left: auto;
+   margin-right: auto;
+   width: 950px;
+   padding-top: 0px;
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-bottom: 10px;
+   background-color: white;
+   box-shadow: 5px 5px 5px #1e1e1e;
+   background-color: #F5F5DC
+}
+
+ul {
+  list-style-image: url("../images/marker.gif")
+}
+
+p{
+  line-height: 60%
+}
