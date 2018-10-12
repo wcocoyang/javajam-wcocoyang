@@ -15,6 +15,7 @@ footer {
 
 h1{
   background-image: url("../images/javalogo.jpg");
+width: 103%;
 text-align: center
 
 }
@@ -47,4 +48,8 @@ ul {
 
 p{
   line-height: 60%
+}
+
+nav{
+  text-align: center;
 }
